@@ -8,12 +8,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class File_Buttons_FunctionTest {
 
     @Test
+    @BeforeEach
     void openfile() {
         java.io.File file = new File("src\\main\\resources\\Test.txt");
         assertEquals("First,I will open the file.",File_Buttons_Function.openfile(file));
     }
 
     @Test
+    @BeforeEach
     void savefile() {
         String s1 = "to test save";
         Frame frame = null;
