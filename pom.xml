@@ -99,12 +99,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.19.1</version>
-                <configuration>
-                         <systemPropertyVariables>
-                                  <xmlOutputDir>${project.build.directory}/surefire</xmlOutputDir>
-                         </systemPropertyVariables>         
-                </configuration>
+                <version>2.19.1</version>             
             </plugin>
         </plugins>
     </build>
